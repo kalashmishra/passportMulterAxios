@@ -1,11 +1,11 @@
 var express = require('express');
 var router = express.Router();
-var userModel = require('./users')
+var userModel = require('./users.js')
 const passport=require('passport');
 const localStrategy =require('passport-local')
 const path=require("path")
 var multer = require('multer')
-var postModel = require("./post");
+var postModel = require("./post.js");
 
 
 
